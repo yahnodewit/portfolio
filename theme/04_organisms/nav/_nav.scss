@@ -1,0 +1,137 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 107px;
+    background-color: #121212;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+.burger{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+    transform: scaleX(-1);
+    margin-right: 5%;
+
+    .burger-line, .burger-line::before, .burger-line::after{
+        display: block;
+        height: 4px;
+        position: absolute;
+        transform-origin: center;
+        background: #ffffff;
+        transition: transform 0.8s ease-in;
+    }
+
+    .burger-line{
+        width: 30px;
+        transform: translateY(-50%);
+    }
+
+    .burger-line::before, .burger-line::after{
+        content: '';
+    }
+
+    .burger-line::before{
+        width: 40px;
+        transform: translateY(-12px);
+    }
+
+    .burger-line::after{
+        width: 20px;
+        transform: translateY(12px);
+    }
+}  
+
+.burger-open{
+
+    .burger-line{
+        transform: translateX(-50px);
+        background: transparent;
+    }
+
+    .burger-line::before{
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+
+    .burger-line::after{
+        width: 40px;
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+}
+
+.nav-links{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    top: 107px;
+    background-color: #121212;
+    gap: 20px;
+    transform: translateX(100%);
+
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+        margin-top: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    a:hover{
+        color: #b0dede;
+    }
+}
+
+.nav-active{
+    transition: transform 0.5s ease-in;
+    transform: translateX(0%);
+}
+
+.nav-nonactive{
+    transition: transform 0.5s ease-in;
+    transform: translateX(100%);
+}
+
+@media screen and (min-width: 1024px){
+    nav{
+        max-width: 100%;
+
+        .nav-links{
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 85%;
+            align-items: center;
+            position: static;
+            height: auto;
+            transform: translateX(0%);
+            top: 0vh;
+            gap: 50px;
+    
+            li{
+                display: block;
+                margin-top: auto;
+            }
+        }
+    
+        .burger{
+            display: none;
+        }
+    }  
+}
