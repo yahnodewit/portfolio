@@ -24,7 +24,7 @@ function uglifyJS(){
 }
 
 function imageOptimize(){
-    return gulp.src('./theme/**/*.{jpg,jpeg,png,svg}')
+    return gulp.src('./theme/**/*.{jpg,jpeg,JPG,png,svg}')
     .pipe(imagemin())
     .pipe(flatten())
     .pipe(gulp.dest('resources/images'));
