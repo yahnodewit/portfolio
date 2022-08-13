@@ -1,9 +1,9 @@
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     min-height: 107px;
-    background-color: #121212;
+    background-color: $background_color_one;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ nav{
     width: 60px;
     cursor: pointer;
     transform: scaleX(-1);
-    margin-right: 5%;
+    margin-right: 10%;
 
     .burger-line, .burger-line::before, .burger-line::after{
         display: block;
@@ -77,7 +77,7 @@ nav{
     right: 0px;
     height: 92vh;
     top: 107px;
-    background-color: #121212;
+    background-color: $background_color_one;
     gap: 20px;
     transform: translateX(100%);
 
@@ -123,6 +123,7 @@ nav{
             transform: translateX(0%);
             top: 0vh;
             gap: 50px;
+            margin-right: 10%;
     
             li{
                 display: block;
