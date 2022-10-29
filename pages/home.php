@@ -138,28 +138,24 @@
             </div>
             <div class="work_page_work_nav work_nav">
                 <ul class="work_nav_items">
-                    <a href="/?filter=all"><li class="work_nav_item">ALL</li></a>
-                    <a href="/?filter=web"><li class="work_nav_item">WEB DEVELOPER</li></a>
-                    <a href="/?filter=uxui"><li class="work_nav_item">UX/UI DESIGN</li></a>
-                    <a href="/?filter=graphicdesign"><li class="work_nav_item">GRAPHIC DESIGN</li></a>
+                    <a href="/?filter=all&#work"><li class="work_nav_item">ALL</li></a>
+                    <a href="/?filter=web&#work"><li class="work_nav_item">WEB DEVELOPER</li></a>
+                    <a href="/?filter=uxui&#work"><li class="work_nav_item">UX/UI DESIGN</li></a>
+                    <a href="/?filter=branding&#work"><li class="work_nav_item">BRANDING</li></a>
+                    <a href="/?filter=other&#work"><li class="work_nav_item">OTHER</li></a>
                 </ul>
             </div>
             <div class="work_page_projects">
-                <?php foreach ($homepage as $project):?>
-                    <?php foreach ($project as $atribute):?>
-                        <p><?php echo $atribute["title"];?></p>
-                        <?php if($atribute["tag"] && $value["d"]):?>
+                <?php foreach ($newArray as $project):?>
+                    <div class="project">
+                        <?php if (isset($project['imageName'])) : ?>
+                            <img src="./resources/images/<?php echo $project['imageName'];?>"/>
                         <?php endif; ?>
-                    <?php endforeach?>
+                        <p><?php echo $project['title']?></p>
+                    </div>
                 <?php endforeach?>
             </div>
         </div>
     </div>
-
-        <script src="./resources/jquery/jquery-3.6.0.mn.js"></script>
-        <script src="./resources/js/main.js"></script>
-    </body>
-
-</html>
 
 

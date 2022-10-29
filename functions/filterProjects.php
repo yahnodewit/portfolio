@@ -2,17 +2,21 @@
 
 if(!isset($_GET['filter']))
 {
-    echo "all";
+    $newArray = $projects;
+    return $newArray;
 }
 else
 {
-    $getparam = $_GET['filter'];
-    $newArray = array_filter($hompage, function($project){
-        return ($project['tag'] !== $getparam)? true : false;
-        //return $project;
-    });
+    if($_GET['filter'] === "all"){
+        $newArray = $projects;
+        return $newArray;
+    }
 
-    var_dump($newArray);
+    elseif($_GET['filter'] !== "all"){
+        $newArray = array_filter($projects, function($project){
+            return $project["tag"] === $_GET['filter'];
+        });
+    }
 
 }
 

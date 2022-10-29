@@ -1,5 +1,5 @@
 
-        <script src="./theme/02_atoms/animation_logo/js/lottie.js"></script>
-        <script src="./theme/02_atoms/animation_logo/js/animation.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="resources/js/main.js"></script>
     </body>
 </html>
