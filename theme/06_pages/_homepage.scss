@@ -1,9 +1,9 @@
 .navigator-home{
-    margin-top: -100px;
+    margin-top: -90px;
 }
 
 .home_page{
-    margin-top: 200px;
+    margin-top: 180px;
     background-image: $lineair_gradient;
     display: flex;
     flex-direction: column;
@@ -17,16 +17,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 15px;
+        margin-top: 22px;
 
         .name_title{
             width: 80%;
-
-            h1{
-                font-size: 48px;
-                font-weight: 500;
-            }
-
 
             @keyframes blink {
                 from, to {
@@ -47,10 +41,6 @@
         .alinea_text{
             width: 80%;
             margin-top: 12px;
-
-            p{
-                font-size: 18px;
-            }
         }
 
         .contact_button{
@@ -71,6 +61,103 @@
             }
 
         }
+    }
+}
 
+.navigator-aboutme{
+    margin-top: -90px;
+}
+
+.about_me_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 80%;
+
+        .about_me_page_title{
+            margin-bottom: 10px;
+        }
+
+        .horizontal_line{
+            margin-top: 5px;
+            width: 100%;
+            border-bottom: 2px solid black;
+        }
+
+        .few_contact_details{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .details{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+
+        .picture_myself{
+
+            img{
+                max-width: 100%;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.skills_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    .content{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        .progress_bars{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+    }
+}
+
+.work_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+
+    .content{
+        width: 80%;
+
+        .current-filter{
+            font-weight: $bold-font-weight;
+        }
+
+        .work_page_projects{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
     }
 }

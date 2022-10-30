@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 107px;
+    min-height: 90px;
     background-color: $background_color_one;
     position: fixed;
     top: 0;
@@ -75,8 +75,8 @@ nav{
     align-items: center;
     position: fixed;
     right: 0px;
-    height: 92vh;
-    top: 107px;
+    height: 95vh;
+    top: 90px;
     background-color: $background_color_one;
     gap: 20px;
     transform: translateX(100%);

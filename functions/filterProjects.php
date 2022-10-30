@@ -6,7 +6,7 @@ if(!isset($_GET['filter']))
     return $newArray;
 }
 else
-{
+{   
     if($_GET['filter'] === "all"){
         $newArray = $projects;
         return $newArray;

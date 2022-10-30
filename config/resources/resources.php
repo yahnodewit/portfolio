@@ -3,12 +3,12 @@
 $projects = [
     'project1'=>[
         "title" => "Bl3ndr front-end",
-        "tag" => "web",
-        "imageName" => "bl3ndr_branding.jpg"
+        "tag" => "web"
     ],
     'project2'=>[
         "title" => "Bl3ndr branding",
-        "tag" => "branding"
+        "tag" => "branding",
+        "imageName" => "bl3ndr_branding.png"
     ],
     'project3'=>[
         "title" => "Coffeecode branding",

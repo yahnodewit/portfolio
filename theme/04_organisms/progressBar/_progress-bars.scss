@@ -1,0 +1,29 @@
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .progress_bar_max{
+        height: 30px;
+        width: 100%;
+        background-color: $background_color_two;
+        border-radius: 10px;
+
+        .progress_bar_value{
+            width: 0;
+            height: 30px;
+            background-color: $background_color_three;
+            border-radius: 10px;
+            position: relative;
+            transition: 1s linear;
+            display: flex;
+            align-items: center;
+            color: $text_color_one;
+
+            .value-progress{
+                margin-left: 20px;
+            }
+        }
+    }
+
+}

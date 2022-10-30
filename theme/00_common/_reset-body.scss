@@ -12,10 +12,15 @@ body{
     overflow-x: hidden;
     color: #000000;
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: $main-font;
 }
 
 .content{
     overflow-x: hidden;
+}
+
+button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }

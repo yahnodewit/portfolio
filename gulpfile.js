@@ -33,7 +33,7 @@ function imageOptimize(){
 
 function watch(){
 
-    gulp.watch('./portfolio/theme/**/*.scss', (cb) => {
+    gulp.watch('./theme/**/*.scss', (cb) => {
         buildingStyles();
         cb();
     });
