@@ -1,0 +1,19 @@
+.btn_fill{
+    border-radius: 10px;
+    padding: 10px 14px;
+    background-color: $background_color_three;
+    border: none;
+    color: $text_color_two;
+
+    a{
+        text-decoration: none;
+        color: $text_color_two;
+    }
+
+    &:hover{
+        background-color: transparent;
+        border: 3px solid $border_color_one;
+        border-radius: 10px;
+        padding: 7px 11px;
+    }
+}

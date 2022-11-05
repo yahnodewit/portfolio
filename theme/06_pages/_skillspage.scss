@@ -1,0 +1,42 @@
+.skills_page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    .content{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        .progress_bars{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .skills_page{
+        margin-top: 90px;
+
+        .content{
+            .progress_bars{
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: space-between;
+
+                .progress_bar{
+                    width: 45%;
+                }
+            }
+        }
+    }
+
+}

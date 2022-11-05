@@ -13,4 +13,14 @@
         text-decoration: none;
     }
 
+    &:hover{
+        background-color: $background_color_three;
+        border: none;
+        padding: 13px 28px;
+    
+        a{
+            color: $text_color_two;
+        }
+    }
+
 }

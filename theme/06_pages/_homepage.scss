@@ -18,6 +18,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 22px;
+        z-index: 3;
 
         .name_title{
             width: 80%;
@@ -49,115 +50,74 @@
             align-items: flex-start;
             margin-top: 25px;
         }
+    }
+    .home_picture{
+        width: 350px;
+        margin-bottom: -4px;
 
-        .home_picture{
-            width: 350px;
-            margin-bottom: -4px;
-    
-            img{
-                width: 100%;
-                margin-left: 110px;
-                margin-top: -106px;
-            }
-
+        img{
+            width: 100%;
+            margin-left: 110px;
+            margin-top: -106px;
         }
+
     }
 }
 
-.navigator-aboutme{
-    margin-top: -90px;
-}
+@media screen and (min-width: 1024px){
+    .home_page{
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: calc(100vh - 90px);
 
-.about_me_page{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 140px;
-
-    .content{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        width: 80%;
-
-        .about_me_page_title{
-            margin-bottom: 10px;
-        }
-
-        .horizontal_line{
-            margin-top: 5px;
-            width: 100%;
-            border-bottom: 2px solid black;
-        }
-
-        .few_contact_details{
+        .social_media{
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 26px;
+            margin-left: 60px;
+            align-items: center;
+            margin-bottom: 60px;
 
-            .details{
+            .first_verticale_line, .second_verticale_line{
+                height: 178px;
+                border-left: 2px solid $background_color_two;
+            }
+
+            .social-icons{
                 display: flex;
                 flex-direction: column;
-                gap: 5px;
+                gap: 26px;
             }
         }
 
-        .picture_myself{
+        .introduction_text{
+            width: 67%;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-start;
+            margin-left: 100px;
+        }
+
+        .home_picture{
+            width: 100%;
+            margin-top: -536px;
+
+            picture{
+                display: flex;
+                justify-content: flex-end;
+            }
 
             img{
-                max-width: 100%;
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-                border-radius: 10px;
+                width: 45%;
+                margin-top: -5px;
+                margin-left: 0px;
+                margin-right: -10px;
             }
         }
     }
-}
 
-.skills_page{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-
-    .content{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-
-        .progress_bars{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            width: 100%;
-            margin-top: 30px;
-        }
-
-    }
-}
-
-.work_page{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 55px;
-
-    .content{
-        width: 80%;
-
-        .current-filter{
-            font-weight: $bold-font-weight;
-        }
-
-        .work_page_projects{
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-        }
-    }
 }
