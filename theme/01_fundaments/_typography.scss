@@ -10,10 +10,16 @@
     font-size: $h1;
 }
 
-.h5{
+.h5-small{
     font-family: $main-font;
     font-weight: $bold-font-weight;
     font-size: $normal-font-size;
+}
+
+.h5{
+    font-family: $main-font;
+    font-weight: $bold-font-weight;
+    font-size: $h5;
 }
 
 .h6{
@@ -25,7 +31,7 @@
 .normal-text{
     font-family: $main-font;
     font-weight: $medium-font-weight;
-    font-size: 16px;
+    font-size: $normal-font-size;
 }
 
 .p-title-card{
@@ -56,4 +62,10 @@
     font-family: $main-font;
     font-weight: $semi-font-weight;
     font-size: $normal-font-size;
+}
+
+.small-text{
+    font-family: $main-font;
+    font-weight: $medium-font-weight;
+    font-size: $small-text;
 }

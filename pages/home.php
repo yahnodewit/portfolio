@@ -66,7 +66,7 @@
                         <div class="first-two-contact-details">
                             <div class="few_contact_details__name_details name_details details">
                                 <div class="name_details__small_title_name small_title_name">
-                                    <h5 class="h5">Name:</h5>
+                                    <h5 class="h5-small">Name:</h5>
                                 </div>
                                 <div class="name_details__data_name data_name">
                                     <p class="normal-text">Yahno De Wit</p>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="few_contact_details__date_of_birth_details date_of_birth_details details">
                                 <div class="date_of_birth_details__small_title_date_of_birth small_title_date_of_birth">
-                                    <h5 class="h5">Date of birth:</h5>
+                                    <h5 class="h5-small">Date of birth:</h5>
                                 </div>
                                 <div class="date_of_birth_details__data_date_of_birth data_date_of_birth">
                                     <p class="normal-text">27 August 2002</p>
@@ -84,7 +84,7 @@
                         <div class="second-two-contact-details">
                             <div class="few_contact_details__email_details email_details details">
                                 <div class="email_details__small_title_email small_title_email">
-                                    <h5 class="h5">Email:</h5>
+                                    <h5 class="h5-small">Email:</h5>
                                 </div>
                                 <div class="email_details__data_email data_email">
                                     <p class="normal-text">yahno.de.wit@gmail.com</p>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="few_contact_details__address_details address_details details">
                                 <div class="address_details__small_title_address small_title_address">
-                                    <h5 class="h5">Address:</h5>
+                                    <h5 class="h5-small">Address:</h5>
                                 </div>
                                 <div class="address_details__data_address data_address">
                                     <p class="normal-text">Paal, Belgium</p>
@@ -187,7 +187,8 @@
                 </div>
             </div>      
         </div>
-        <div class="work_page" id="work">
+        <div class="navigator-work" id="work"></div>
+        <div class="work_page">
             <div class="content">
                 <div class="work_page_title_work title_work">
                     <h2 class="title-subpage">MY WORK</h2>

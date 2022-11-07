@@ -1,9 +1,13 @@
+.navigator-work{
+    margin-top: -80px;
+}
+
 .work_page{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 55px;
+    margin-top: 135px;
     margin-bottom: 55px;
 
     .content{
@@ -32,7 +36,7 @@
 
 @media screen and (min-width: 1024px){
     .work_page{
-        margin-top: 100px;
+        margin-top: 150px;
 
         .content{
             .work_page_projects{
