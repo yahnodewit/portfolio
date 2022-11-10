@@ -2,7 +2,7 @@
     <div class="go-back">
         <div class="go-back-btn">
             <a href="/#work" class="go-back-link">
-                <img src="./resources/images/goback.png" alt="go back Icon"/>
+                <img src="/resources/images/goback.png" alt="go back Icon"/>
                 <p class="button-text">GO BACK</p>
             </a>
         </div>
@@ -13,7 +13,7 @@
                 <h1 class="title-subpage"><?php echo $project['title']?></h1>
 
                 <div class="date-project">
-                    <img src="./resources/images/clock-icon.png" alt="clock Icon"/>
+                    <img src="/resources/images/clock-icon.png" alt="clock Icon"/>
                     <p class="normal-text"><?php echo $project['date']?></p>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                 </div>
 
                 <?php if (isset($project['header-image'])) : ?>
-                    <img src="./resources/images/<?php echo $project['header-image'];?>"/>
+                    <img src="/resources/images/<?php echo $project['header-image'];?>"/>
                 <?php endif; ?>
             </div>
 
@@ -57,7 +57,7 @@
                     <?php if (isset($project['picture-result'])) : ?>
                         <div class="project-images">
                             <?php for ($x = 0; $x <= count($project['picture-result']) - 1; $x++):?>
-                                <img src="./resources/images/<?php echo $project['picture-result'][$x];?>"/>
+                                <img src="/resources/images/<?php echo $project['picture-result'][$x];?>"/>
                             <?php endfor?>
                         </div>
                     <?php endif; ?>

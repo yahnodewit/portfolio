@@ -1,22 +1,25 @@
 <?php
 
-if(!isset($_GET['filter']) &&  $page == 'home')
+if(!isset($_GET['id']) &&  in_array($page, ['home', 'filter']))
 {
     $newArray = $projects;
     return $newArray;
 }
 
-elseif (isset($_GET['filter']) &&  $page == 'home')
+elseif (isset($_GET['id']) &&  in_array($page, ['home', 'filter']))
 {   
-    if($_GET['filter'] === "all"){
+  
+    if(empty($_GET['id']) || $_GET['id'] == 'all'){
         $newArray = $projects;
         return $newArray;
     }
 
-    elseif($_GET['filter'] !== "all"){
+    elseif($_GET['id'] !== "all"){
+
         $newArray = array_filter($projects, function($project){
-            return $project["tag"] === $_GET['filter'];
+            return $project["tag"] === $_GET['id'];
         });
+
     }
 }
 

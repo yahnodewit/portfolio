@@ -16,7 +16,7 @@
 	 * Set page
      */
 	$page = (empty($_GET['p'])) ? 'home' : $_GET['p'];
-    $filter = (empty($_GET['filter'])) ? 'all' : $_GET['filter'];
+    $filter = (empty($_GET['id'])) ? 'all' : $_GET['id'];
 
 	/*
 	 * Set redirect where needed
