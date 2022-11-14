@@ -7,13 +7,13 @@
             </div>
             <div class="social_media__social-icons social-icons">
                 <div class="social-icons__icon_linkedin icon_linkedin icon">
-                    <img src="/resources/images/linkedin_white.png" alt="logo linkedin">
+                    <a href="https://www.linkedin.com/in/yahno-de-wit-0630631ba/" target="blank"><img src="/resources/images/linkedin_white.png" alt="logo linkedin"></a>
                 </div>
                 <div class="social-icons__icon_facebook icon_facebook icon">
-                    <img src="/resources/images/facebook_white.png" alt="logo facebook">
+                    <a href="https://www.facebook.com/yahno.dewit/" target="blank"><img src="/resources/images/facebook_white.png" alt="logo facebook"></a>
                 </div>
                 <div class="social-icons__icon_instagram icon_instagram icon">
-                    <img src="/resources/images/insta_white.png" alt="logo instagram">
+                    <a href="https://www.instagram.com/yahno.dewit/" target="blank"><img src="/resources/images/insta_white.png" alt="logo instagram"></a>
                 </div>
             </div>
             <div class="social_media__second_verticale_line second_verticale_line">
@@ -204,7 +204,7 @@
                 </div>
                 <div class="work_page_projects">
                     <?php foreach ($newArray as $project):?>
-                        <a href="?p=project&id=<?php echo $project['id']?>" class="link-project">
+                        <a href="/project/<?php echo $project['id']?>" class="link-project">
                             <div class="project">
                                     <div class="overlay"></div>
                                     <?php if (isset($project['imageName'])) : ?>
@@ -229,13 +229,13 @@
                         <p class="semi-text">+32471781281</p>
                     </div>
                     <div class="mail">
-                        <img src="/resources/images/mail-icon.png" alt="mail Icon"/>
-                        <p class="semi-text">yahno.de.wit@gmail.com</p>
+                        <a href="mailto:yahno.de.wit@gmail.com"><img src="/resources/images/mail-icon.png" alt="mail Icon"/></a>
+                        <a href="mailto:yahno.de.wit@gmail.com"><p class="semi-text">yahno.de.wit@gmail.com</p></a>
                     </div>
                     <div class="socials">
-                        <img src="/resources/images/linkedin.png" alt="logo linked in">
-                        <img src="/resources/images/facebook.png" alt="logo facebook">
-                        <img src="/resources/images/insta.png" alt="logo instagram">
+                        <a href="https://www.linkedin.com/in/yahno-de-wit-0630631ba/" target="blank"><img src="/resources/images/linkedin.png" alt="logo linked in"></a>
+                        <a href="https://www.facebook.com/yahno.dewit/" target="blank"><img src="/resources/images/facebook.png" alt="logo facebook"></a>
+                        <a href="https://www.instagram.com/yahno.dewit/" target="blank"><img src="/resources/images/insta.png" alt="logo instagram"></a>
                     </div>
                 </div>
 

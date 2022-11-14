@@ -15,8 +15,8 @@ $projects = [
                             The blendr app is a layer app above Twitter where you can connect with people from the NFT community.
                             This project was for an extern client.",
         "result-text" => "One of the things I did for this project was the front-end. Mostly the design code (CSS) and HTML. 
-                        But also a little bit of JS. The front-end of this project is made in React. And it was the first time I worked it.
-                        I learned a lot from it. The functionality of al the components (radiobuttons, checkboxes) is coded by a classmate.",
+                        But also a little bit of JS. The front-end of this project is made in React. And it was the first time I worked with it.
+                        I learned a lot from it. The functionality of al the components (radiobuttons, checkboxes) was coded by a classmate.",
         "link-project" => "https://bl3ndr.stef.geybels.nxtmediatech.eu/",
         "picture-result" => ["Bl3ndr-result1.png", "Bl3ndr-result2.png", "Bl3ndr-result3.png"],
     ],
@@ -33,6 +33,14 @@ $projects = [
                             students from WEB and one of the projects we worked on was the Bl3ndr app.
                             The blendr app is a layer app above Twitter where you can connect with people from the NFT community.
                             This project was for an extern client.",
+        "interTitles" => ["Logo", "Styleguide"],
+        "interTexts" => ["When the project began the only thing we knew was the information about what we needed to do and the name. But the app also needed a logo so I began with some sketches. After that added some color. And I ended with a logo that could work in the web 3 community.",
+                        "But the app also needed a UI and the logo needed some color so I had to made a styleguide. I have chosen for dark theme colors because in the web 3 community everyone use dark themes.",
+        ],
+        "interPictures" =>  [
+            ["bl3ndr_branding.png", "schetsen_logo_bl3ndr.png", "logos_bl3nder.jpg"],
+            ["huisstijl_bl3ndr.png"],
+        ],
     ],
     'project3'=>[
         "id" => "coffeecode-branding",
@@ -45,6 +53,16 @@ $projects = [
         "header-image" => "header-img-coffeecode-branding.jpg",
         "assigment-text" => "For the subject project WEB in my last year of MCT we where an agency with all the 
                             students from WEB and ofcourse we needed a name, a logo, a brand, website, ... .",
+        "interTitles" => ["Logo", "Animated logo", "Styleguide"],
+        "interTexts" => ["One of the things I made for the branding is the logo. It began with some sketches of coding logo's and coffee logo's. And it end with a logo where coding and coffee is combinded in one with a little bit of color.",
+                        "After I designed the logo for our agency we came with the idea to make it interactive. That's why I made an animation of the logo so we can use it on the website.",
+                        "Before our team could design the UI of the website and I could add some color to the logo there need to be a styleguide. The colors a teammate and I added to the styleguide where used in the first version of the website and in the logo."
+        ],
+        "interPictures" =>  [
+            ["coffeecode_logo.png", "schetsen_logo_coffeecode.png", "coffeecode_logo_name.jpg"],
+            ["coffeecode_animated.gif"],
+            ["Styleguide_coffeecode.jpg"],
+        ],
     ],
     'project4'=>[
         "id" => "portfolio-website",
@@ -83,25 +101,32 @@ $projects = [
         "imageName" => "magicwall.png",
         "date" => "04/2022 - 05/2022",
         "small-tags" =>  ["#animate", "#design", "#figma", "#drawings"],
+        "assigment-text" => "In the second year of my study we had to start a start-up in group and one of the assignments for the start-up was
+                             to make a wireframe for our start-up.",
         "link-project" => "https://www.figma.com/file/GCB19Se1NvvtUrv7Vs0JWn/magicwall",
     ],
     'project7'=>[
-        "id" => "rebranding-snapchat",
-        "title" => "Rebranding Snapchat",
+        "id" => "rebranding-spotify",
+        "title" => "Rebranding Spotify",
         "tag" => "uxui",
         "project-type" => "not-simple",
-        "imageName" => "rebranding_snap.png",
+        "imageName" => "rebranding_spotify.png",
         "date" => "11/2021 - 05/2022",
         "small-tags" =>  ["#UX", "#UI", "#rebranding"],
-        "link-project" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Snapchat",
+        "assigment-text" => "For the subject UX and the subject UI we had to redesign an app. We could chose between: Strava, Spotify, Snapchat, 
+                            Tik Tok and Tinder.",
+        "link-project" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify",
     ],
     'project8'=>[
         "id" => "figmaland-website",
         "title" => "Figmaland website",
         "tag" => "web",
         "project-type" => "simple",
+        "imageName" => "figmaLand.png",
         "date" => "05/2022",
         "small-tags" =>  ["#HTML", "#CSS", "#JS"],
+        "assigment-text" => "For the subject front-end development we had a assigment for our exam where we need to code a website. We got
+                            a wireframe and we need to make te same. This need to be with Sass and in a design system.",
         "link-project" => "https://frontend.yawidesign.be/",
     ],
     'project9'=>[
@@ -109,54 +134,82 @@ $projects = [
         "title" => "Ticture",
         "tag" => "branding",
         "project-type" => "not-simple",
+        "imageName" => "ticture.png",
         "date" => "09/2021 - 11/2021",
         "small-tags" =>  ["#graphical design", "#logo", "#branding"],
+        "assigment-text" => "For the subject Creation & Strategy we had to make a new digital museum experience. 
+                            We could chose between one of next museums: MAS, FoMu, MiMa, Bozar.",
     ],
     'project10'=>[
         "id" => "the-future-is-you",
         "title" => "The future is you video",
         "tag" => "other",
-        "project-type" => "not-simple",
+        "project-type" => "simple-video",
+        "imageName" => "future_is_you.jpg",
         "date" => "04/2021 - 06/2021",
         "small-tags" =>  ["#video", "#animate", "#sound"],
+        "assigment-text" => "In my first year of my study we had to make a promotion video for our study.",
+        "result-text" => "We filmed the videos in group and afterwards I edited it on my own. 
+                        I was one of the 2 students that won and the video was posted on the school's youtube page.",
         "link-project" => "https://www.youtube.com/watch?v=_sh5LIEDGLk",
+        "video" => "https://www.youtube.com/embed/Pbosd0NNprY"
     ],
     'project11'=>[
         "id" => "never-give-up",
         "title" => "Never give up video",
         "tag" => "other",
-        "project-type" => "not-simple",
+        "project-type" => "simple-video",
+        "imageName" => "never_give_up.jpg",
         "date" => "10/2020 - 01/2021",
         "small-tags" =>  ["#video", "#animate", "#sound"],
+        "assigment-text" => "In my first year of my study we needed to make a video about the corona. We could chose about what in theme corona.",
         "link-project" => "https://youtu.be/IudNSR76wS4",
+        "video" => "https://www.youtube.com/embed/IudNSR76wS4"
     ],
     'project12'=>[
         "id" => "tshirt-design",
         "title" => "T-shirt design",
         "tag" => "other",
-        "project-type" => "not-simple",
-        "date" => "03/2020 - now"
+        "project-type" => "on-my-own",
+        "imageName" => "tshirt_drawings.png",
+        "date" => "03/2020 - now",
+        "small-tags" =>  ["#t-shirt", "#drawings"],
+        "text" => "In my free time I love to make some drawings for t-shirts. This interest came after an assignment in my highschool where we
+        had to make a design for a t-shirt and print it afterwards.",
+        "pictures-on-my-own" => ["t-shirt_planet.png", "tshirt_panda.png"],
     ],
     'project13'=>[
         "id" => "small-drawings",
         "title" => "Small drawings",
         "tag" => "other",
-        "project-type" => "not-simple",
-        "date" => "03/2020 - now"
+        "project-type" => "on-my-own",
+        "imageName" => "drawings.jpg",
+        "date" => "03/2020 - now",
+        "small-tags" =>  ["#drawings"],
+        "text" => "In some of my assignments we had to make some digital drawings. But also in my freetime I love to make some digital
+                drawing. This are the results.",
+        "pictures-on-my-own" => ["pinokio.jpg", "wine_bottle.png", "beer_bottle.png", "icoon1.png", "icoon2.png", "icoon3.png", "icoon4.png"],
     ],
     'project14'=>[
         "id" => "other",
         "title" => "Other",
         "tag" => "other",
-        "project-type" => "not-simple",
-        "date" => "2016 - now"
+        "project-type" => "on-my-own",
+        "imageName" => "other.png",
+        "date" => "2016 - now",
+        "small-tags" =>  ["#bookcover"],
+        "text" => "These are some projects for school or for my own.",
+        "pictures-on-my-own" => ["bookcover_did_i_mention.jpg", "picture_editing.png", "eigendomslogo.png"],
     ],
     'project15'=>[
         "id" => "gip-last-year-of-high-school",
         "title" => "GIP last year of high school",
         "tag" => "other",
         "project-type" => "not-simple",
-        "date" => "09/2019 - 06/2020"
+        "imageName" => "GIP.png",
+        "date" => "09/2019 - 06/2020",
+        "small-tags" =>  ["#logo", "#business letter", "#business cards", "#book", "#animated video"],
+        "assigment-text" => "In my last year of high school I had to make branding, animated video, book, ... for something we want.",
     ]
     
 ];
