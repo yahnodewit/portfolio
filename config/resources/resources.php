@@ -56,13 +56,9 @@ $projects = [
         "interTitles" => ["Logo", "Animated logo", "Styleguide"],
         "interTexts" => ["One of the things I made for the branding is the logo. It began with some sketches of coding logo's and coffee logo's. And it end with a logo where coding and coffee is combinded in one with a little bit of color.",
                         "After I designed the logo for our agency we came with the idea to make it interactive. That's why I made an animation of the logo so we can use it on the website.",
-                        "Before our team could design the UI of the website and I could add some color to the logo there need to be a styleguide. The colors a teammate and I added to the styleguide where used in the first version of the website and in the logo."
+                        "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. This styleguide was made by a classmate and I was the first version of the styleguide. The colors on this styleguide where used in the first version of the website and in the logo."
         ],
-        "interPictures" =>  [
-            ["coffeecode_logo.png", "schetsen_logo_coffeecode.png", "coffeecode_logo_name.jpg"],
-            ["coffeecode_animated.gif"],
-            ["Styleguide_coffeecode.jpg"],
-        ],
+        
     ],
     'project4'=>[
         "id" => "portfolio-website",
@@ -72,14 +68,26 @@ $projects = [
         "imageName" => "portfolio_web.png",
         "date" => "09/2022 - 11/2022",
         "small-tags" =>  ["#HTML", "#CSS", "#JS", "#PHP"],
-        "header-image" => "",
+        "header-image" => "header-img-portfolio.png",
         "assigment-text" => "As a webdeveloper I needed a place to show my work and the best place to show that is on my own website.",
+        "interTitles" => ["Design", "Development", "Desktop", "Mobile"],
+        "interTexts" => ["First of all I made a design so i could realy focus on what I wanted to show and how I could do this on a way people see who I am and what I do.",
+                        "After the design I needed to develop this. I learned a lot in coding this: I learned to write better basic PHP, I learned new things in JS, ...",
+                        "",
+                        "",],
         "link-project" => "https://yawidesign.be/",
+        "link-design" => "https://www.figma.com/file/v4Vjra6XpqwexhrGTau9IT/Portfolio",
+        "interPictures" =>  [
+            ["design-desktop-portfolio.png", "design-mobile-portfolio.gif"],
+            [],
+            ["dev-desktop-portfolio.gif"], 
+            ["dev-mobile-portfolio.gif"],
+        ],
     ],
     'project5'=>[
         "id" => "invitation-website",
         "title" => "Invitation website",
-        "tag" => "uxui",
+        "tag" => "web",
         "project-type" => "simple",
         "imageName" => "invitation_website.png",
         "date" => "06/2022 - 07/2022",
@@ -97,13 +105,17 @@ $projects = [
         "id" => "magicwall",
         "title" => "Magicwall",
         "tag" => "uxui",
-        "project-type" => "not-simple",
+        "project-type" => "simple",
         "imageName" => "magicwall.png",
         "date" => "04/2022 - 05/2022",
         "small-tags" =>  ["#animate", "#design", "#figma", "#drawings"],
         "assigment-text" => "In the second year of my study we had to start a start-up in group and one of the assignments for the start-up was
                              to make a wireframe for our start-up.",
+        "result-text" => "We needed to make a project with kids as target audience so the website needed to be playfull. So that was a challenge 
+                        for me because I never made a website that looks playfull before. But I could to things I really love (make drawings, 
+                        animate the drawings, ...). ",
         "link-project" => "https://www.figma.com/file/GCB19Se1NvvtUrv7Vs0JWn/magicwall",
+        "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
     ],
     'project7'=>[
         "id" => "rebranding-spotify",

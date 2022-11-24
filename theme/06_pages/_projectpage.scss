@@ -132,7 +132,17 @@
                     display: flex;
                     flex-direction: column;
                     gap: 5px;
+                    
+                    .visit-design{
+                        text-decoration: none;
+                        color: $text_color_three;
+                    }
+
+                    .visit-design:hover{
+                        color: $text_color_two;
+                    }
                 }
+
                 .pictures-inter{
                     display: flex;
                     flex-direction: column;

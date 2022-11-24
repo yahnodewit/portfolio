@@ -80,6 +80,7 @@
                         <?php endif; ?>
                     <?php endif; ?>
                 <?php endif; ?>
+
                 <?php if ($project['project-type'] == "not-simple") : ?>
                     <?php if (isset($project['interTitles'])) : ?>
                         <div class="result-alineas">
@@ -88,6 +89,12 @@
                                     <div class="alinea__interText interText">
                                         <h6 class="h6-bold"><?php echo $project['interTitles'][$i]?></h6>
 
+                                        <?php if ($project['interTitles'][$i] == "Design") : ?>
+                                            <?php if (isset($project['link-design'])) : ?>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-design']?>" target="blank">Visit Design of project</a></p>
+                                            <?php endif; ?>
+                                        <?php endif; ?>
+                                        
                                         <?php if (isset($project['interTexts'])) : ?>
                                             <p class="normal-text"><?php echo $project['interTexts'][$i]?></p>
                                         <?php endif; ?>
