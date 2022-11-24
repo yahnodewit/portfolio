@@ -66,7 +66,9 @@
                         <?php if (isset($project['picture-result'])) : ?>
                             <div class="project-images">
                                 <?php for ($x = 0; $x <= count($project['picture-result']) - 1; $x++):?>
-                                    <img src="/resources/images/<?php echo $project['picture-result'][$x];?>"/>
+                                    <a href="/resources/images/<?php echo $project['picture-result'][$x];?>" alt="Image description" target="_blank">
+                                        <img src="/resources/images/<?php echo $project['picture-result'][$x];?>"/>
+                                    </a>
                                 <?php endfor?>
                             </div>
                         <?php endif; ?>
@@ -75,7 +77,7 @@
                     <?php if ($project['project-type'] == "simple-video") :?>
                         <?php if (isset($project['video'])) : ?>
                             <div class="project-video">
-                                    <iframe  src="<?php echo $project['video'];?>?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                <iframe  src="<?php echo $project['video'];?>?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                             </div>
                         <?php endif; ?>
                     <?php endif; ?>
@@ -103,7 +105,9 @@
                                     <?php if (isset($project['interPictures'])) : ?>
                                         <div class="pictures-inter">
                                             <?php foreach ($project['interPictures'][$i] as $projectPictures):?>
-                                                <img src="/resources/images/<?php echo $projectPictures?>"/>
+                                                <a href="/resources/images/<?php echo $projectPictures;?>" alt="Image description" target="_blank">
+                                                    <img src="/resources/images/<?php echo $projectPictures?>"/>
+                                                </a>
                                             <?php endforeach?>
                                         </div>
                                     <?php endif; ?>
@@ -116,7 +120,9 @@
                     <?php if (isset($project['pictures-on-my-own'])) : ?>
                         <div class="pictures-on-my-own">
                             <?php for ($j = 0; $j <= count($project['pictures-on-my-own']) - 1; $j++):?>
-                                <img src="/resources/images/<?php echo $project['pictures-on-my-own'][$j]?>"/>
+                                <a href="/resources/images/<?php echo $project['pictures-on-my-own'][$j];?>" alt="Image description" target="_blank">
+                                    <img src="/resources/images/<?php echo $project['pictures-on-my-own'][$j];?>"/>
+                                </a>
                             <?php endfor?>
                         </div>
                     <?php endif; ?>

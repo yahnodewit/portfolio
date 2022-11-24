@@ -104,9 +104,11 @@
             flex-direction: column;
             gap: 15px;
 
-            img{
-                width: 100%;
-                border-radius: 10px;
+            a {
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                }
             }
         }
 
@@ -147,10 +149,12 @@
                     display: flex;
                     flex-direction: column;
                     gap: 15px;
-    
-                    img{
-                        width: 100%;
-                        border-radius: 10px;
+
+                    a {
+                        img{
+                            width: 100%;
+                            border-radius: 10px;
+                        }
                     }
                 }
             }
@@ -163,10 +167,13 @@
                 gap: 20px;
                 margin-top: 30px;
 
-            img{
-                width: 100%;
-                border-radius: 10px;
-            }
+                a{
+                    img{
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+
         }
         
     }
@@ -174,8 +181,34 @@
 
 @media screen and (min-width: 800px){
     .project_page{
-
         .content{
+            gap: 35px;
+
+            .assignment {
+                flex-direction: row;
+                gap: 40px;
+                margin-bottom: 45px;
+
+                .assignment-text {
+                    width: 35%;
+                }
+
+                img {
+                    width: 55%;
+                }
+            }
+
+            .project-images {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin-top: 15px;
+
+                a {
+                    width: 45%;
+                }
+            }
+
             iframe{
                 height: 60vh;
             }
@@ -185,9 +218,12 @@
                 flex-wrap: wrap;
                 align-items: flex-start;
 
-                img{
+                a {
                     width: 40%;
-                    object-fit: contain;
+
+                    img{
+                        object-fit: contain;
+                    }
                 }
             }
         }
@@ -203,7 +239,7 @@
             }
 
             .pictures-on-my-own{
-                img{
+                a{
                     max-width: 20%;
                 }
             }
