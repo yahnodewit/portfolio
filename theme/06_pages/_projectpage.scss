@@ -186,7 +186,7 @@
 
             .assignment {
                 flex-direction: row;
-                gap: 40px;
+                gap: 70px;
                 margin-bottom: 45px;
 
                 .assignment-text {
@@ -213,6 +213,22 @@
                 height: 60vh;
             }
 
+            .result-alineas {
+                .alinea {
+                    gap: 40px;
+
+                    .pictures-inter {
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 80px;
+
+                        a {
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+
             .pictures-on-my-own{
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -232,15 +248,26 @@
 
 @media screen and (min-width: 1024px){
     .project_page{
-
         .content{
             iframe{
                 height: 70vh;
             }
 
+            .result-alineas {
+                .alinea {
+                    .pictures-inter {
+                        gap: 70px;
+
+                        a {
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+
             .pictures-on-my-own{
                 a{
-                    max-width: 20%;
+                    max-width: 30%;
                 }
             }
         }

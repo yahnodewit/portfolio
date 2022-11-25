@@ -91,9 +91,21 @@
                                     <div class="alinea__interText interText">
                                         <h6 class="h6-bold"><?php echo $project['interTitles'][$i]?></h6>
 
-                                        <?php if ($project['interTitles'][$i] == "Design") : ?>
-                                            <?php if (isset($project['link-design'])) : ?>
+                                        <?php if ($project['interTitles'][$i] == "Design" || $project['interTitles'][$i] == "UX Low Fidelity frame" || $project['interTitles'][$i] == "UX High Fidelity frame" || $project['interTitles'][$i] == "UI mobile" || $project['interTitles'][$i] == "UI desktop") : ?>
+                                            <?php if (isset($project['link-design']) && $project['interTitles'][$i] == "Design") : ?>
                                                 <p><a class="normal-text visit-design" href="<?php echo $project['link-design']?>" target="blank">Visit Design of project</a></p>
+                                            <?php endif; ?>
+                                            <?php if (isset($project['link-LF']) && $project['interTitles'][$i] == "UX Low Fidelity frame") : ?>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-LF']?>" target="blank">Visit LF of design</a></p>
+                                            <?php endif; ?>
+                                            <?php if (isset($project['link-HF']) && $project['interTitles'][$i] == "UX High Fidelity frame") : ?>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-HF']?>" target="blank">Visit HF of design</a></p>
+                                            <?php endif; ?>
+                                            <?php if (isset($project['link-UI-mobile']) && $project['interTitles'][$i] == "UI mobile") : ?>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI']?>" target="blank">Visit UI of design</a></p>
+                                            <?php endif; ?>
+                                            <?php if (isset($project['link-UI-desktop']) && $project['interTitles'][$i] == "UI desktop") : ?>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI']?>" target="blank">Visit UI of design</a></p>
                                             <?php endif; ?>
                                         <?php endif; ?>
                                         
