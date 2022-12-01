@@ -102,10 +102,10 @@
                                                 <p><a class="normal-text visit-design" href="<?php echo $project['link-HF']?>" target="blank">Visit HF of design</a></p>
                                             <?php endif; ?>
                                             <?php if (isset($project['link-UI-mobile']) && $project['interTitles'][$i] == "UI mobile") : ?>
-                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI']?>" target="blank">Visit UI of design</a></p>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI-mobile']?>" target="blank">Visit UI of design</a></p>
                                             <?php endif; ?>
                                             <?php if (isset($project['link-UI-desktop']) && $project['interTitles'][$i] == "UI desktop") : ?>
-                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI']?>" target="blank">Visit UI of design</a></p>
+                                                <p><a class="normal-text visit-design" href="<?php echo $project['link-UI-desktop']?>" target="blank">Visit desktop UI of design</a></p>
                                             <?php endif; ?>
                                         <?php endif; ?>
                                         

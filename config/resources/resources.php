@@ -41,6 +41,11 @@ $projects = [
                             "After I designed the logo for our agency we came with the idea to make it interactive. That's why I made an animation of the logo so we can use it on the website.",
                             "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. This styleguide was made by a classmate and I was the first version of the styleguide. The colors on this styleguide where used in the first version of the website and in the logo."
                         ],
+        "interPictures" =>  [
+                                ["coffeecode_logo.png", "schetsen_logo_coffeecode.png", "coffeecode_logo_name.jpg"],
+                                ["coffeecode_animated.gif"],
+                                ["Styleguide_coffeecode.jpg"],
+                            ],
         
     ],
     'project3'=>[
@@ -94,10 +99,10 @@ $projects = [
         "assigment-text" => "In the second year of my study we had to start a start-up in group and one of the assignments for the start-up was
                              to make a wireframe for our start-up.",
         "result-text" => "We needed to make a project with kids as target audience so the website needed to be playfull. So that was a challenge 
-                        for me because I never made a website that looks playfull before. But I could to things I really love (make drawings, 
+                        for me because I never made a website that looks playfull before. But I could do things I really love (make drawings, 
                         animate the drawings, ...). ",
         "link-project" => "https://www.figma.com/file/GCB19Se1NvvtUrv7Vs0JWn/magicwall",
-        "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
+        "picture-result" => ["magicwall_mobile.gif", "magicwall_drawing.png", "magicwall_drawing1.png"],
     ],
     'project6'=>[
         "id" => "rebranding-spotify",
@@ -113,14 +118,20 @@ $projects = [
         "link-project" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify",
         "interTitles" => ["UX Low Fidelity frame", "UX High Fidelity frame", "UI mobile", "UI desktop"],
         "interTexts" => [
-                            "First of all I made a design so i could realy focus on what I wanted to show and how I could do this on a way people see who I am and what I do.",
-                            "After the design I needed to develop this. I learned a lot in coding this: I learned to write better basic PHP, I learned new things in JS, ...",
-                            "After the design I needed to develop this. I learned a lot in coding this: I learned to write better basic PHP, I learned new things in JS, ...",
+                            "I chose to rebrand Spotify and after doing some research about the features of spotify and asking people about their pain points with spotify I made a really basic design about how I think spotify can change some things in their UX.",
+                            "After that I made it a liitle bit more clear by adding icons, ...",
+                            "When all the UX was done I began by making the design for it. The design of spotify was really good so I didn't want to change a lot about it.",
+                            "We also needed to make 2 screens in desktop so I based a little bit on how Spotify is on desktop on this moment but changed it a little bit."
                         ],
         "link-LF" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=1%3A3&t=QhEwVLau5Jdx76mD-0",
+        "link-HF" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=1%3A2&t=RLVM8D7rodwNSENW-0",
+        "link-UI-mobile" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=0%3A1&t=RLVM8D7rodwNSENW-0",
+        "link-UI-desktop" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=1%3A3475&t=RLVM8D7rodwNSENW-0",
         "interPictures" =>  [
-                                [""],
-                                [""],
+                                ["Mobile1_LF.png", "Mobile2_LF.png", "Mobile3_LF.png"],
+                                ["Mobile1_HF.png", "Mobile2_HF.png", "Mobile3_HF.png"],
+                                ["Mobile1_UI.png", "Mobile2_UI.png", "Mobile3_UI.png", "Mobile4_UI.png"],
+                                ["Desktop1_UI.png", "Desktop2_UI.png"],
                             ],
     ],
     'project7'=>[
