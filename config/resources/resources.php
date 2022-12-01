@@ -82,7 +82,7 @@ $projects = [
         "assigment-text" => "The year I turned 20 I wanted to give a big party so I needed to make an invitation. But someone asked me 'You are not 
                             going to make boring basic invitation. Aren't you?'. After that question the idea came to make an invitation website.",
         "result-text" => "After some thinking I tought it would be nice that the people can say on the website if they are coming are not. 
-                        So I needed to use a database to store all the info (who is coming, with how much, ...) that makes this was project a 
+                        So I needed to use a database to store all the info (who was coming, with how much are they coming, ...) that makes this project a 
                         challenge. For the first time I needed to combine front-end and back-end (before this project I did one of them in one project but not both at the same time).",
         "link-project" => "https://uitnodiging.yawidesign.be/",
         "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
@@ -120,8 +120,8 @@ $projects = [
         "interTexts" => [
                             "I chose to rebrand Spotify and after doing some research about the features of spotify and asking people about their pain points with spotify I made a really basic design about how I think spotify can change some things in their UX.",
                             "After that I made it a liitle bit more clear by adding icons, ...",
-                            "When all the UX was done I began by making the design for it. The design of spotify was really good so I didn't want to change a lot about it.",
-                            "We also needed to make 2 screens in desktop so I based a little bit on how Spotify is on desktop on this moment but changed it a little bit."
+                            "When all the UX was done I began making the design for it. The design of spotify was on that moment really good so I didn't want to change a lot about it.",
+                            "We also needed to make 2 screens in desktop so I based myself a little bit on how Spotify is on desktop on this moment but changed it a little bit."
                         ],
         "link-LF" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=1%3A3&t=QhEwVLau5Jdx76mD-0",
         "link-HF" => "https://www.figma.com/file/NoDf5lf9ZmL7w08wLRxeRj/Rebranding-Spotify?node-id=1%3A2&t=RLVM8D7rodwNSENW-0",
@@ -142,20 +142,29 @@ $projects = [
         "imageName" => "figmaLand.png",
         "date" => "05/2022",
         "small-tags" =>  ["#HTML", "#CSS", "#JS"],
+        "header-image" => "header-img-figmaland.jpg",
         "assigment-text" => "For the subject front-end development we had a assigment for our exam where we need to code a website. We got
-                            a wireframe and we need to make te same. This need to be with Sass and in a design system.",
+                            a wireframe and we needed to make it the same. This needed to be in Sass and with a design system.",
+        "result-text" => "In this project I learned a lot new things about writing JavaScript (copying classes more times, a slider of images, ...).
+                        By making this exam assigment I also learned to write faster and better CSS by using Sass and spliting the CSS in a design system.",
         "link-project" => "https://frontend.yawidesign.be/",
+        "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
     ],
     'project8'=>[
         "id" => "ticture",
         "title" => "Ticture",
         "tag" => "branding",
-        "project-type" => "not-simple",
+        "project-type" => "simple",
         "imageName" => "ticture.png",
         "date" => "09/2021 - 11/2021",
         "small-tags" =>  ["#graphical design", "#logo", "#branding"],
+        "header-image" => "header-img-ticture.jpg",
         "assigment-text" => "For the subject Creation & Strategy we had to make a new digital museum experience. 
                             We could chose between one of next museums: MAS, FoMu, MiMa, Bozar.",
+        "result-text" => "I had chosen to made new experience for FOMU because I really wanted to go to a museum like FOMU. I decided
+                        that I wanted to made an 'event' where everyone learn something about the history of photography and the history of FOMU.
+                        So on that moment I realised myself that I wanted to made a game out of it. But to promote the event I needed to do some branding 
+                        (a name, a logo, colors, typography, poster, ...). The result of my work can you see in the pictures.",
     ],
     'project9'=>[
         "id" => "the-future-is-you",
@@ -165,9 +174,10 @@ $projects = [
         "imageName" => "future_is_you.jpg",
         "date" => "04/2021 - 06/2021",
         "small-tags" =>  ["#video", "#animate", "#sound"],
+        "header-image" => "header-img-theFutureIsYou.png",
         "assigment-text" => "In my first year of my study we had to make a promotion video for our study.",
         "result-text" => "We filmed the videos in group and afterwards I edited it on my own. 
-                        I was one of the 2 students that won and the video was posted on the school's youtube page.",
+                        I was one of the 2 students that won and the video was posted on the youtube page of my school.",
         "link-project" => "https://www.youtube.com/watch?v=_sh5LIEDGLk",
         "video" => "https://www.youtube.com/embed/Pbosd0NNprY"
     ],
@@ -179,6 +189,7 @@ $projects = [
         "imageName" => "never_give_up.jpg",
         "date" => "10/2020 - 01/2021",
         "small-tags" =>  ["#video", "#animate", "#sound"],
+        "header-image" => "header-img-never-give-up.jpg",
         "assigment-text" => "In my first year of my study we needed to make a video about the corona. We could chose about what in theme corona.",
         "link-project" => "https://youtu.be/IudNSR76wS4",
         "video" => "https://www.youtube.com/embed/IudNSR76wS4"
@@ -191,6 +202,7 @@ $projects = [
         "imageName" => "tshirt_drawings.png",
         "date" => "03/2020 - now",
         "small-tags" =>  ["#t-shirt", "#drawings"],
+        "header-image" => "header-img-tshirt-design.jpg",
         "text" => "In my free time I love to make some drawings for t-shirts. This interest came after an assignment in my highschool where we
         had to make a design for a t-shirt and print it afterwards.",
         "pictures-on-my-own" => ["t-shirt_planet.png", "tshirt_panda.png"],
@@ -203,6 +215,7 @@ $projects = [
         "imageName" => "drawings.jpg",
         "date" => "03/2020 - now",
         "small-tags" =>  ["#drawings"],
+        "header-image" => "header-img-small-drawings.jpg",
         "text" => "In some of my assignments we had to make some digital drawings. But also in my freetime I love to make some digital
                 drawing. This are the results.",
         "pictures-on-my-own" => ["pinokio.jpg", "wine_bottle.png", "beer_bottle.png", "icoon1.png", "icoon2.png", "icoon3.png", "icoon4.png"],
@@ -215,6 +228,7 @@ $projects = [
         "imageName" => "other.png",
         "date" => "2016 - now",
         "small-tags" =>  ["#bookcover"],
+        "header-image" => "header-img-other.jpg",
         "text" => "These are some projects for school or for my own.",
         "pictures-on-my-own" => ["bookcover_did_i_mention.jpg", "picture_editing.png", "eigendomslogo.png"],
     ],
@@ -222,10 +236,17 @@ $projects = [
         "id" => "gip-last-year-of-high-school",
         "title" => "GIP last year of high school",
         "tag" => "other",
-        "project-type" => "not-simple",
+        "project-type" => "simple",
         "imageName" => "GIP.png",
         "date" => "09/2019 - 06/2020",
         "small-tags" =>  ["#logo", "#business letter", "#business cards", "#book", "#animated video"],
+        "header-image" => "header-img-gip.jpg",
         "assigment-text" => "In my last year of high school I had to make branding, animated video, book, ... for something we want.",
+        "result-text" => "For my GIP I made the choise torealised make everything for a graffiti company. I began the road with a name and a logo. 
+                        After that I made a business card and letter. I learned a lot in this three steps of the traject and I really enjoyed it.
+                        But I also needed to make a book about my subject so I went to different cities to take pictures of graffiti. Beside some pictures of graffiti work I also 
+                        also needed some pictures of graffiti cans so I went to a store where they sell this. On that moment I realised that I wanted to give the book a special touch 
+                        so I made the cover by myself and also some graffiti work inside the book. That was really really fun to do. At least we also needed to made 
+                        an animation in the subject of our GIP so that was a little bit of a challenge for me because I want to made something really cool in After Effects.",
     ]  
 ];
