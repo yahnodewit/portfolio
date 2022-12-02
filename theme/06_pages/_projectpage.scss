@@ -143,6 +143,15 @@
                     .visit-design:hover{
                         color: $text_color_two;
                     }
+
+                    .visit-project{
+                        text-decoration: none;
+                        color: $text_color_three;
+                    }
+
+                    .visit-project:hover{
+                        color: $text_color_two;
+                    }
                 }
 
                 .pictures-inter{
@@ -253,10 +262,16 @@
                 height: 70vh;
             }
 
+            .project-images {
+                a {
+                    width: 30%;
+                }
+            }
+
             .result-alineas {
                 .alinea {
                     .pictures-inter {
-                        gap: 70px;
+                        gap: 60px;
 
                         a {
                             width: 30%;

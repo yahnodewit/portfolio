@@ -108,6 +108,12 @@
                                                 <p><a class="normal-text visit-design" href="<?php echo $project['link-UI-desktop']?>" target="blank">Visit desktop UI of design</a></p>
                                             <?php endif; ?>
                                         <?php endif; ?>
+
+                                        <?php if ($project['interTitles'][$i] == "Book") : ?>
+                                            <?php if (isset($project['link-book'])) : ?>
+                                                <p><a class="normal-text visit-project" href="<?php echo $project['link-book']?>" target="blank">Link to the book</a></p>
+                                            <?php endif; ?>
+                                        <?php endif; ?>
                                         
                                         <?php if (isset($project['interTexts'])) : ?>
                                             <p class="normal-text"><?php echo $project['interTexts'][$i]?></p>

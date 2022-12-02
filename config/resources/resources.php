@@ -236,17 +236,26 @@ $projects = [
         "id" => "gip-last-year-of-high-school",
         "title" => "GIP last year of high school",
         "tag" => "other",
-        "project-type" => "simple",
+        "project-type" => "not-simple",
         "imageName" => "GIP.png",
         "date" => "09/2019 - 06/2020",
         "small-tags" =>  ["#logo", "#business letter", "#business cards", "#book", "#animated video"],
         "header-image" => "header-img-gip.jpg",
         "assigment-text" => "In my last year of high school I had to make branding, animated video, book, ... for something we want.",
-        "result-text" => "For my GIP I made the choise torealised make everything for a graffiti company. I began the road with a name and a logo. 
-                        After that I made a business card and letter. I learned a lot in this three steps of the traject and I really enjoyed it.
-                        But I also needed to make a book about my subject so I went to different cities to take pictures of graffiti. Beside some pictures of graffiti work I also 
-                        also needed some pictures of graffiti cans so I went to a store where they sell this. On that moment I realised that I wanted to give the book a special touch 
-                        so I made the cover by myself and also some graffiti work inside the book. That was really really fun to do. At least we also needed to made 
-                        an animation in the subject of our GIP so that was a little bit of a challenge for me because I want to made something really cool in After Effects.",
+        "interTitles" => ["Branding", "Book", "Infomercial"],
+        "interTexts" => [
+            "For my GIP I made the choise torealised make everything for a graffiti company. I began the road with a name and a logo. 
+            After that I made a business card and letter. I learned a lot in this three steps of the traject and I really enjoyed it.",
+            "But I also needed to make a book about my subject so I went to different cities to take pictures of graffiti. Beside some pictures of graffiti work I also 
+            also needed some pictures of graffiti cans so I went to a store where they sell this. On that moment I realised that I wanted to give the book a special touch 
+            so I made the cover by myself and also some graffiti work inside the book. That was really really fun to do.",
+            "At least we also needed to make an informercial in the subject of our GIP so that was a little bit of a challenge for me because I want to made something 
+            really cool in After Effects.",
+        ],
+        "link-book" => "https://studentkdg-my.sharepoint.com/:b:/g/personal/yahno_dewit_student_kdg_be/Ed4TBMXA1U1Is0HGweM1e1oBO8iXNARrWnFRobzVolbitA?e=4zzIia",
+        "interPictures" =>  [
+            ["GIP_result_logo.png", "GIP_result_bussines_card1.jpg", "GIP_result_bussines_card2.jpg", "GIP_result_letter.jpg", "GIP_result_poster.jpg", "GIP_result_promomateriaal1.jpg", "GIP_result_promomateriaal2.jpg", "GIP_result_promomateriaal3.jpg"],
+            ["GIP_result_boekcover.jpg", "GIP_result_book1.png", "GIP_result_book2.png", "GIP_result_book3.png", "GIP_result_book4.png", "GIP_result_book5.png", "GIP_result_book6.png", "GIP_result_book7.png", "GIP_result_book8.png"],
+        ],
     ]  
 ];
