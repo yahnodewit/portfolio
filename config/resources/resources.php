@@ -16,8 +16,8 @@ $projects = [
                             This project was for an extern client.",
         "interTitles" => ["Logo", "Styleguide"],
         "interTexts" => [
-                            "When the project began the only thing we knew was the information about what we needed to do and the name. But the app also needed a logo so I began with some sketches. After that added some color. And I ended with a logo that could work in the web 3 community.",
-                            "But the app also needed a UI and the logo needed some color so I had to made a styleguide. I have chosen for dark theme colors because in the web 3 community everyone use dark themes.",
+                            "When the project began the only thing we knew was the information about what we needed to do and the name. But the app also needed a logo so I began with some sketches. After that I added some color. And I ended with a logo that could work in the web 3 community.",
+                            "But the app also needed a UI and the logo needed some color so I had to made a styleguide. I have chosen for dark theme colors because in the web 3 community everybody uses dark themes.",
                         ],
         "interPictures" =>  [
                                 ["bl3ndr_branding.png", "schetsen_logo_bl3ndr.png", "logos_bl3nder.jpg"],
@@ -39,7 +39,7 @@ $projects = [
         "interTexts" => [
                             "One of the things I made for the branding is the logo. It began with some sketches of coding logo's and coffee logo's. And it end with a logo where coding and coffee is combinded in one with a little bit of color.",
                             "After I designed the logo for our agency we came with the idea to make it interactive. That's why I made an animation of the logo so we can use it on the website.",
-                            "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. This styleguide was made by a classmate and I was the first version of the styleguide. The colors on this styleguide where used in the first version of the website and in the logo."
+                            "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. This styleguide was made by a classmate and I was the first version of the styleguide. The colors in this styleguide where used in the first version of the website and in the logo."
                         ],
         "interPictures" =>  [
                                 ["coffeecode_logo.png", "schetsen_logo_coffeecode.png", "coffeecode_logo_name.jpg"],
@@ -61,7 +61,7 @@ $projects = [
         "interTitles" => ["Design", "Development"],
         "interTexts" => [
                             "First of all I made a design so i could realy focus on what I wanted to show and how I could do this on a way people see who I am and what I do.",
-                            "After the design I needed to develop this. I learned a lot in coding this: I learned to write better basic PHP, I learned new things in JS, ...",
+                            "After the design I needed to develop this. I learned a lot from coding this: I learned to write better basic PHP, I learned new things in JS, ...",
                         ],
         "link-project" => "https://yawidesign.be/",
         "link-design" => "https://www.figma.com/file/v4Vjra6XpqwexhrGTau9IT/Portfolio",
@@ -82,10 +82,10 @@ $projects = [
         "assigment-text" => "The year I turned 20 I wanted to give a big party so I needed to make an invitation. But someone asked me 'You are not 
                             going to make boring basic invitation. Aren't you?'. After that question the idea came to make an invitation website.",
         "result-text" => "After some thinking I tought it would be nice that the people can say on the website if they are coming are not. 
-                        So I needed to use a database to store all the info (who was coming, with how much are they coming, ...) that makes this project a 
+                        So I needed to use a database to store all the info (who was coming and with how many people, ...) that makes this project a 
                         challenge. For the first time I needed to combine front-end and back-end (before this project I did one of them in one project but not both at the same time).",
         "link-project" => "https://uitnodiging.yawidesign.be/",
-        "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
+        "picture-result" => ["invitation_website.gif"],
     ],
     'project5'=>[
         "id" => "magicwall",
@@ -119,7 +119,7 @@ $projects = [
         "interTitles" => ["UX Low Fidelity frame", "UX High Fidelity frame", "UI mobile", "UI desktop"],
         "interTexts" => [
                             "I chose to rebrand Spotify and after doing some research about the features of spotify and asking people about their pain points with spotify I made a really basic design about how I think spotify can change some things in their UX.",
-                            "After that I made it a liitle bit more clear by adding icons, ...",
+                            "After that I made it a little bit more clear by adding icons, ...",
                             "When all the UX was done I began making the design for it. The design of spotify was on that moment really good so I didn't want to change a lot about it.",
                             "We also needed to make 2 screens in desktop so I based myself a little bit on how Spotify is on desktop on this moment but changed it a little bit."
                         ],
@@ -145,10 +145,10 @@ $projects = [
         "header-image" => "header-img-figmaland.jpg",
         "assigment-text" => "For the subject front-end development we had a assigment for our exam where we need to code a website. We got
                             a wireframe and we needed to make it the same. This needed to be in Sass and with a design system.",
-        "result-text" => "In this project I learned a lot new things about writing JavaScript (copying classes more times, a slider of images, ...).
+        "result-text" => "In this project I learned a lot of new things about writing JavaScript (copying classes more times, a slider of images, ...).
                         By making this exam assigment I also learned to write faster and better CSS by using Sass and spliting the CSS in a design system.",
         "link-project" => "https://frontend.yawidesign.be/",
-        "picture-result" => ["invitation-website1.png", "invitation-website2.png"],
+        "picture-result" => ["figmaLand_website.gif"],
     ],
     'project8'=>[
         "id" => "ticture",
@@ -161,10 +161,11 @@ $projects = [
         "header-image" => "header-img-ticture.jpg",
         "assigment-text" => "For the subject Creation & Strategy we had to make a new digital museum experience. 
                             We could chose between one of next museums: MAS, FoMu, MiMa, Bozar.",
-        "result-text" => "I had chosen to made new experience for FOMU because I really wanted to go to a museum like FOMU. I decided
+        "result-text" => "I chose to make a new experience for FOMU because I really wanted to go to a museum like FOMU. I decided
                         that I wanted to made an 'event' where everyone learn something about the history of photography and the history of FOMU.
                         So on that moment I realised myself that I wanted to made a game out of it. But to promote the event I needed to do some branding 
                         (a name, a logo, colors, typography, poster, ...). The result of my work can you see in the pictures.",
+        "picture-result" => ["Ticture_logo.png", "Ticture_color_palet.png", "Ticture_poster.jpg", "Ticture_poster_outside.png", "Ticture_krant_adv_design.jpg", "Ticture_krant_adv.png", "Ticture_instagram1.png", "Ticture_instagram2.png", "Ticture_instagram3.png", "Ticture_instagram4.png", "Ticture_instagram5.png", "Ticture_instagram6.png", "Ticture_instagram7.png", "Ticture_unique.png", "Ticture_blickjes.png", "Ticture_tote_bag.png", "Ticture_tshirt_white.png", "Ticture_tshirt_blue.png"],
     ],
     'project9'=>[
         "id" => "the-future-is-you",
@@ -190,7 +191,7 @@ $projects = [
         "date" => "10/2020 - 01/2021",
         "small-tags" =>  ["#video", "#animate", "#sound"],
         "header-image" => "header-img-never-give-up.jpg",
-        "assigment-text" => "In my first year of my study we needed to make a video about the corona. We could chose about what in theme corona.",
+        "assigment-text" => "In my first year of my study we needed to make a video about the corona crisis.",
         "link-project" => "https://youtu.be/IudNSR76wS4",
         "video" => "https://www.youtube.com/embed/IudNSR76wS4"
     ],
@@ -217,7 +218,7 @@ $projects = [
         "small-tags" =>  ["#drawings"],
         "header-image" => "header-img-small-drawings.jpg",
         "text" => "In some of my assignments we had to make some digital drawings. But also in my freetime I love to make some digital
-                drawing. This are the results.",
+                drawing. These are the results.",
         "pictures-on-my-own" => ["pinokio.jpg", "wine_bottle.png", "beer_bottle.png", "icoon1.png", "icoon2.png", "icoon3.png", "icoon4.png"],
     ],
     'project13'=>[
@@ -229,7 +230,7 @@ $projects = [
         "date" => "2016 - now",
         "small-tags" =>  ["#bookcover"],
         "header-image" => "header-img-other.jpg",
-        "text" => "These are some projects for school or for my own.",
+        "text" => "This are some projects for school or some things I make in my freetime.",
         "pictures-on-my-own" => ["bookcover_did_i_mention.jpg", "picture_editing.png", "eigendomslogo.png"],
     ],
     'project14'=>[
@@ -241,15 +242,15 @@ $projects = [
         "date" => "09/2019 - 06/2020",
         "small-tags" =>  ["#logo", "#business letter", "#business cards", "#book", "#animated video"],
         "header-image" => "header-img-gip.jpg",
-        "assigment-text" => "In my last year of high school I had to make branding, animated video, book, ... for something we want.",
+        "assigment-text" => "In my last year of high school I had to do some branding and made things like an animated video, a book, ... . We could chose the theme we want.",
         "interTitles" => ["Branding", "Book", "Infomercial"],
         "interTexts" => [
-            "For my GIP I made the choise torealised make everything for a graffiti company. I began the road with a name and a logo. 
+            "For my GIP I made the choise to make everything for a graffiti company. I began the road with a name and a logo. 
             After that I made a business card and letter. I learned a lot in this three steps of the traject and I really enjoyed it.",
             "But I also needed to make a book about my subject so I went to different cities to take pictures of graffiti. Beside some pictures of graffiti work I also 
-            also needed some pictures of graffiti cans so I went to a store where they sell this. On that moment I realised that I wanted to give the book a special touch 
+            needed some pictures of graffiti cans so I went to a store where they sell this. On that moment I realised that I wanted to give the book a special touch 
             so I made the cover by myself and also some graffiti work inside the book. That was really really fun to do.",
-            "At least we also needed to make an informercial in the subject of our GIP so that was a little bit of a challenge for me because I want to made something 
+            "At least we also needed to make an informercial in the subject of our GIP so that was a challenge for me because I want to made something 
             really cool in After Effects.",
         ],
         "link-book" => "https://studentkdg-my.sharepoint.com/:b:/g/personal/yahno_dewit_student_kdg_be/Ed4TBMXA1U1Is0HGweM1e1oBO8iXNARrWnFRobzVolbitA?e=4zzIia",
