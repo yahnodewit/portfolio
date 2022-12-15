@@ -27,7 +27,7 @@
                 <span class="name_title__cursor cursor">l</span></h1>
             </div>
             <div class="introduction_text__alinea_text alinea_text">
-                <p class="alinea_text__h6 h6">I am a student in web development and UX/UI design. And I also love to do graphic design.</p>
+                <p class="alinea_text__h6 h6">I'm a web development and UX/UI student who's also passionate about graphic design.</p>
             </div>
             <div class="introduction_text__contact_button contact_button">
                 <button class="contact_button__btn_outline  btn_outline"><a href="#contact">CONTACT ME</a></button>
@@ -52,11 +52,11 @@
                     </div>
                     <div class="about_me_page__alinea_text alinea_text">
                         <p class="alinea_text__normal-text normal-text">
-                            Hello, I am Yahno De Wit a 19 years old student. 
-                            Currently I am studying Multimedia and Creative 
-                            Technolgy with a focus on web design at KdG Antwerp. 
-                            But I also love to do Graphic design in my study and 
-                            freetime. Furthermore I love to help other people.
+                        Hello, my name is Yahno De Wit and I am a 19-year-old student currently studying 
+                        Multimedia and Creative Technology with a focus on web design at KdG Antwerp. 
+                        In addition to my studies, I also enjoy doing graphic design in my free time. 
+                        I am passionate about helping others and love being able to use my skills to 
+                        make a positive impact.
                         </p>
                     </div>
                     <div class="about_me_page__horizontal_line horizontal_line">

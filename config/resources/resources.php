@@ -10,14 +10,13 @@ $projects = [
         "date" => "10/2022",
         "small-tags" =>  ["#graphical design", "#logo", "#styleguide"],
         "header-image" => "header-img-bl3ndr.jpg",
-        "assigment-text" => "For the subject project WEB in my last year of MCT we where an agency with all the 
-                            students from WEB and one of the projects we worked on was the Bl3ndr app.
-                            The blendr app is a layer app above Twitter where you can connect with people from the NFT community.
-                            This project was for an extern client.",
+        "assigment-text" => "In my final year of MCT, the WEB subject project required us to form an agency with all the WEB students. 
+                            One of the projects we worked on was the Bl3ndr app, which is a layer on top of Twitter that connects users 
+                            from the NFT community. This project was for an external client.",
         "interTitles" => ["Logo", "Styleguide"],
         "interTexts" => [
-                            "When the project began the only thing we knew was the information about what we needed to do and the name. But the app also needed a logo so I began with some sketches. After that I added some color. And I ended with a logo that could work in the web 3 community.",
-                            "But the app also needed a UI and the logo needed some color so I had to made a styleguide. I have chosen for dark theme colors because in the web 3 community everybody uses dark themes.",
+                            "When the project began the only thing we knew was the information about what we needed to do and the name. Since the app needed a logo, I started by sketching out some ideas. Then, I added color to the sketches to see which ones stood out. After some experimentation, I landed on a logo that I felt would work well in the web 3 community.",
+                            "In addition to the logo, the app also needed a user interface, so I decided to create a styleguide. I chose dark theme colors for the app because that's what's commonly used in the web 3 community. To ensure that the logo matched the overall aesthetic, I added some color to it as well. Overall, I wanted to create a cohesive and visually appealing design for the app.",
                         ],
         "interPictures" =>  [
                                 ["bl3ndr_branding.png", "schetsen_logo_bl3ndr.png", "logos_bl3nder.jpg"],
@@ -33,13 +32,13 @@ $projects = [
         "date" => "09/2022 - 10/2022",
         "small-tags" =>  ["#graphical design", "#animation", "#logo", "#styleguide"],
         "header-image" => "header-img-coffeecode-branding.jpg",
-        "assigment-text" => "For the subject project WEB in my last year of MCT we where an agency with all the 
-                            students from WEB and ofcourse we needed a name, a logo, a brand, website, ... .",
+        "assigment-text" => "For the subject project WEB in my last year of MCT, our class functioned as an agency. All of the students 
+                            in the WEB class were involved, and we needed to come up with a name, logo, brand, website, .....",
         "interTitles" => ["Logo", "Animated logo", "Styleguide"],
         "interTexts" => [
                             "One of the things I made for the branding is the logo. It began with some sketches of coding logo's and coffee logo's. And it end with a logo where coding and coffee is combinded in one with a little bit of color.",
-                            "After I designed the logo for our agency we came with the idea to make it interactive. That's why I made an animation of the logo so we can use it on the website.",
-                            "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. This styleguide was made by a classmate and I was the first version of the styleguide. The colors in this styleguide where used in the first version of the website and in the logo."
+                            "After designing the logo for our agency, we came up with the idea to make it interactive. That's why I created an animation of the logo so we could use it on the website. The animation added a dynamic and engaging element to the logo, and I think it helped to make our website stand out.",
+                            "Before our team could design the UI of the website and I could add some color to the logo. There needed to be a styleguide. The first version of the styleguide was made by a classmate and me. The colors in this styleguide where used in the first version of the website and in the logo."
                         ],
         "interPictures" =>  [
                                 ["coffeecode_logo.png", "schetsen_logo_coffeecode.png", "coffeecode_logo_name.jpg"],
