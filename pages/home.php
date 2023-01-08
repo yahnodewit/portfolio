@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div class="about_me_page__download_cv_button download_cv_button">
-                        <button class="download_cv_button__btn_fill  btn_fill"><a href="./resources/files/Cv_Yahno.pdf" download="CV_Yahno.pdf">
+                        <button class="download_cv_button__btn_fill  btn_fill"><a href="/resources/files/Cv_Yahno.pdf" download="CV_Yahno.pdf">
                             <img src="/resources/images/download_icon.png" alt="download Icon"/>
                             <p class="button-text">Download CV</p>
                         </a></button>
