@@ -9,11 +9,8 @@
                 <div class="social-icons__icon_linkedin icon_linkedin icon">
                     <a href="https://www.linkedin.com/in/yahno-de-wit-0630631ba/" target="blank"><img src="/resources/images/linkedin_white.png" alt="logo linkedin"></a>
                 </div>
-                <div class="social-icons__icon_facebook icon_facebook icon">
-                    <a href="https://www.facebook.com/yahno.dewit/" target="blank"><img src="/resources/images/facebook_white.png" alt="logo facebook"></a>
-                </div>
-                <div class="social-icons__icon_instagram icon_instagram icon">
-                    <a href="https://www.instagram.com/yahno.dewit/" target="blank"><img src="/resources/images/insta_white.png" alt="logo instagram"></a>
+                <div class="social-icons__icon_github icon_github icon">
+                    <a href="https://github.com/yahnodewit" target="blank"><img src="/resources/images/github_white.png" alt="logo github"></a>
                 </div>
             </div>
             <div class="social_media__second_verticale_line second_verticale_line">
@@ -234,8 +231,7 @@
                     </div>
                     <div class="socials">
                         <a href="https://www.linkedin.com/in/yahno-de-wit-0630631ba/" target="blank"><img src="/resources/images/linkedin.png" alt="logo linked in"></a>
-                        <a href="https://www.facebook.com/yahno.dewit/" target="blank"><img src="/resources/images/facebook.png" alt="logo facebook"></a>
-                        <a href="https://www.instagram.com/yahno.dewit/" target="blank"><img src="/resources/images/insta.png" alt="logo instagram"></a>
+                        <a href="https://github.com/yahnodewit" target="blank"><img src="/resources/images/github.png" alt="logo github"></a>
                     </div>
                 </div>
 
