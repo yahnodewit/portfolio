@@ -33,6 +33,14 @@
                             <p class="normal-text"><?php echo $project['assigment-text']?></p>
                         <?php endif; ?>
                     <?php endif; ?>
+                    
+                    <?php if (isset($project['small-tags'])) : ?>
+                        <div class="tags">
+                            <?php for ($x = 0; $x <= count($project['small-tags']) - 1; $x++):?>
+                                <button class="button-text rounded-fill"><?php echo $project['small-tags'][$x]?></button>
+                            <?php endfor?>
+                        </div>
+                    <?php endif; ?>
                 </div>
 
                 <?php if (isset($project['header-image'])) : ?>
@@ -46,14 +54,6 @@
 
                     <?php if (isset($project['link-project'])) : ?>
                         <p><a class="normal-text visit-project" href="<?php echo $project['link-project']?>" target="blank">Visit project</a></p>
-                    <?php endif; ?>
-
-                    <?php if (isset($project['small-tags'])) : ?>
-                        <div class="tags">
-                            <?php for ($x = 0; $x <= count($project['small-tags']) - 1; $x++):?>
-                                <button class="button-text rounded-fill"><?php echo $project['small-tags'][$x]?></button>
-                            <?php endfor?>
-                        </div>
                     <?php endif; ?>
                 </div>
 

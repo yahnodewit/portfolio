@@ -63,6 +63,13 @@
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+
+                .tags{
+                    margin-top: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                }
             }
 
             img{
@@ -88,13 +95,6 @@
 
                 a:hover{
                     color: $text_color_two;
-                }
-
-                .tags{
-                    margin-top: 10px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 10px;
                 }
             }
         }
